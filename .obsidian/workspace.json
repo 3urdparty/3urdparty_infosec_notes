@@ -11,13 +11,8 @@
             "id": "7745cf078a2f3907",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "New note.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "New note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "New note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "New note.md"
-              }
+              "state": {}
             }
           },
           {
@@ -159,11 +150,12 @@
   },
   "active": "7745cf078a2f3907",
   "lastOpenFiles": [
+    "New note.md",
+    "New folder/Newer folder/mark.md",
     "newestfolder",
     "New folder/Newer folder",
     "New folder",
     "README.md",
-    "New note.md",
     "Resources/Templates",
     "Resources"
   ]
