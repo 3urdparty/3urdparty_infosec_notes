@@ -11,11 +11,56 @@
             "id": "7745cf078a2f3907",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "GTFO Bins.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cca2a9fd1d2afc6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GTFO Bins.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e553713f35fce176",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GTFO Bins.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "339e2ade99e7c853",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Boxes/Investigation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -81,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Boxes/Investigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Boxes/Investigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Boxes/Investigation.md"
+              }
             }
           },
           {
@@ -148,8 +197,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7745cf078a2f3907",
+  "active": "339e2ade99e7c853",
   "lastOpenFiles": [
+    "evtx.md",
+    "nc.md",
+    "Boxes/Investigation.md",
+    "python_evtx/evtx_dump.py.md",
+    "thunderbird.md",
+    "ssh.md",
+    "python_evtx",
+    "GTFO Bins.md",
+    "Methodology.md",
+    "Boxes",
     "New note.md",
     "New folder/Newer folder/mark.md",
     "newestfolder",
