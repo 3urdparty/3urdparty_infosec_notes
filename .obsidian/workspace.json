@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "581df221970966ff",
+        "id": "47b4c79ee1d16e21",
         "type": "tabs",
         "children": [
           {
-            "id": "7745cf078a2f3907",
+            "id": "5f1b4d09600a60b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wpscan.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c540eea8934d6bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wpscan.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2d765cfdd2b4dc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Investigation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b393a4a865a3dbfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "apt.md",
+                "file": "Theory/Linux/Commands/nc.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "apt.md",
+                "file": "Theory/Linux/Commands/nc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "apt.md",
+                "file": "Theory/Linux/Commands/nc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "apt.md"
+                "file": "Theory/Linux/Commands/nc.md"
               }
             }
           },
@@ -198,11 +158,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b393a4a865a3dbfc",
+  "active": "5f1b4d09600a60b7",
   "lastOpenFiles": [
-    "git.md",
-    "apt.md",
+    "ftp.md",
+    "WordPress.md",
+    "nginx.md",
+    "hashcat.md",
+    "dtd.md",
+    "wpscan.md",
+    "Untitled.md",
+    "Processes.md",
+    "systemd.md",
     "Theory/Linux/Linux.md",
+    "aptitude.md",
+    "dpgk.md",
+    "snap.md",
+    "gem.md",
+    "pip.md",
+    "Boxes/Investigation.md",
+    "apt.md",
+    "DPKG.md",
+    "git.md",
     "Theory/Linux/Commands/mkdir.md",
     "find.md",
     "locate.md",
@@ -210,32 +186,16 @@
     "which.md",
     "whihc.md",
     "Theory/Linux/Commands/nc.md",
-    "Methodology.md",
     "Theory/Linux/Commands",
     "Pasted image 20230316140925.png",
-    "Boxes/Investigation.md",
     "Theory/Linux",
     "Theory",
-    "Tools/sqlmap.md",
-    "hashcat.md",
-    "wpscan.md",
-    "python_evtx/evtx_dump.py.md",
-    "Maintenance.md",
-    "GTFO Bins.md",
-    "WordPress.md",
-    "Metatwo.md",
     "Tools",
-    "evtx.md",
-    "thunderbird.md",
-    "Theory/Linux/Commands/ssh.md",
     "python_evtx",
     "Boxes",
-    "New note.md",
-    "New folder/Newer folder/mark.md",
     "newestfolder",
     "New folder/Newer folder",
     "New folder",
-    "README.md",
     "Resources/Templates"
   ]
 }

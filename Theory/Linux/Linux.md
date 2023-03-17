@@ -92,3 +92,11 @@ Desktop 	Directory name
 - [[gem]] - front-end to [[RubyGems]], standard PM for [[Ruby]]
 - [[pip]] - PM for python packages
 - [[git]]
+
+## Service and process Management
+`deamons` are servicecs that run in the background without any user interaction, signified by the `d` at the end of a program name (`sshd`, `systemd`)
+
+>[!INFO] Each process has an ID (`PID`) which can be viewed in `/proc/`
+
+Some examples:
+- [[systemd]] - **Init process** and has PID 1, since it starts first, takes care of starting and stopping other services

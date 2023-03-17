@@ -1,0 +1,1 @@
+- `/etc/nginx/sites-enabled/default` - Path for `nginx` config file 
