@@ -1,0 +1,1 @@
+Returns the path to the file or link that should be executed

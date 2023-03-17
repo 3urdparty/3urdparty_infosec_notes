@@ -1,0 +1,1 @@
+Potfile located at `~/.local/share/hashcat/hashcat.potfile`

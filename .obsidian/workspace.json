@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GTFO Bins.md",
+                "file": "wpscan.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "cca2a9fd1d2afc6b",
+            "id": "5c540eea8934d6bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GTFO Bins.md",
+                "file": "wpscan.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,25 +34,25 @@
             }
           },
           {
-            "id": "e553713f35fce176",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GTFO Bins.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "339e2ade99e7c853",
+            "id": "d2d765cfdd2b4dc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Boxes/Investigation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b393a4a865a3dbfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "apt.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cd75fce5489afc26",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Investigation.md",
+                "file": "apt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Investigation.md",
+                "file": "apt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Investigation.md"
+                "file": "apt.md"
               }
             }
           },
@@ -197,17 +198,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "339e2ade99e7c853",
+  "active": "b393a4a865a3dbfc",
   "lastOpenFiles": [
-    "evtx.md",
-    "nc.md",
-    "Boxes/Investigation.md",
-    "python_evtx/evtx_dump.py.md",
-    "thunderbird.md",
-    "ssh.md",
-    "python_evtx",
-    "GTFO Bins.md",
+    "git.md",
+    "apt.md",
+    "Theory/Linux/Linux.md",
+    "Theory/Linux/Commands/mkdir.md",
+    "find.md",
+    "locate.md",
+    "GreRegEx.md",
+    "which.md",
+    "whihc.md",
+    "Theory/Linux/Commands/nc.md",
     "Methodology.md",
+    "Theory/Linux/Commands",
+    "Pasted image 20230316140925.png",
+    "Boxes/Investigation.md",
+    "Theory/Linux",
+    "Theory",
+    "Tools/sqlmap.md",
+    "hashcat.md",
+    "wpscan.md",
+    "python_evtx/evtx_dump.py.md",
+    "Maintenance.md",
+    "GTFO Bins.md",
+    "WordPress.md",
+    "Metatwo.md",
+    "Tools",
+    "evtx.md",
+    "thunderbird.md",
+    "Theory/Linux/Commands/ssh.md",
+    "python_evtx",
     "Boxes",
     "New note.md",
     "New folder/Newer folder/mark.md",
@@ -215,7 +236,6 @@
     "New folder/Newer folder",
     "New folder",
     "README.md",
-    "Resources/Templates",
-    "Resources"
+    "Resources/Templates"
   ]
 }
