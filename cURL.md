@@ -1,0 +1,1 @@
+Is a tool that allows trasfer of files from the shell over protocols like `HTTP`, `HTTPS`, `FTP`, `SFTP`, `FTPS`, `SCP`.

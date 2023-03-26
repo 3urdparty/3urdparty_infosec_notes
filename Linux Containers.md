@@ -1,0 +1,1 @@
+Linux Containers (`LXC`) is a virtualization technology that allows multiple isolated Linux systems to run on a single host. It uses isolation features such as `cgroups` and `namespaces`.

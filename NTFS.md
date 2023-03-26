@@ -1,0 +1,1 @@
+NTFS is a File Management system. It is useful when compatibility with windows is needed

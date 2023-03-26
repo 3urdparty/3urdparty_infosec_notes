@@ -100,3 +100,90 @@ Desktop 	Directory name
 
 Some examples:
 - [[systemd]] - **Init process** and has PID 1, since it starts first, takes care of starting and stopping other services
+
+## Task scheduling
+Allows users to schedule and automate tasks.
+We can use:
+- [[systemd#Task automation|systemd]]
+- [[Cron#Task scheduling|cron]]
+### Systemd vs Cron
+Only difference between both are the way they are configured.
+
+## Network services
+[[ssh]] - Is a network protocol that allows secure transmission of data and commands over a network. 
+[[NFS]] - Is used to share files convenently across hosts
+[[VPN]]
+
+Web servers - Sotware that proviceds data and documents or other applications and functions over the internet using the `HTTP`
+Examples include:
+- Apache
+- Nginx
+- Lighttpd
+- Caddy
+
+## Backup and restore
+These tools help us backup data:
+- [[Rsync]]
+- [[Deja Dup]]
+- [[Duplicity]]
+
+## File system management
+Linux is based on the [[Unix]] file system. It consists of a heirarchical structure, at the top is the **inode table**, the basis for the entire file system.
+
+**inode table** - table of information associated with each file and directory on a Linux system, containing metadata about file or directory.
+Linux supports multiple File Systems including:
+- [[ext2]]
+- [[ext3]]
+- [[ext3]]
+- [[ext4]]
+- [[XFS]]
+- [[Btrfs]]
+- [[NTFS]] - Useful when compatibility with windows is needed
+
+### Disks and drives
+You can use `fdisk` which allows us to create, delete and manage partitions on a drive. Partitioning a drive on Linux involves dividing the phyical storage space into seperate, logical sections, each partition can then be formatted with a specific file system, such as `ext4`, `NTFS`, `FAT32`. Tools to partition disks on Linux:
+- [[fdisk]]
+- [[gpart]]
+- [[GParted]]
+
+**Mounting** - Assigning a partition/drive to a specific directory on Linux.
+To view the mounted file systems at boot:
+```bash
+cat /etc/fstab
+```
+
+To view currently mounted file systems, we can use the `mount` command:
+```bash
+mount
+```
+
+To mount a file system:
+```bash
+sudo mount /dev/sdb1 /mnt/usb
+cd /mnt/usb && ls -l
+```
+
+
+To unmount a file system, you must first kill all processes running using that file system:
+
+```bash
+lsof | grep theycallmemuzz
+```
+
+```bash
+sudo unmount /mnt/usb
+```
+
+We can unmount a ile system automatically when the system is shut down by adding an entry to the `/etc/fstab` by adding the `noauto` option to the entry in the `/etc/fstab` file or a file system.
+
+
+#### SWAP
+SWAP is a crucual aspect of memory management in Linux.
+**Swapping** - freeing up physical memory or use by active processes by transferring inactive memory pages of memory to the swap space.
+
+We can use both [[mkswap]] or [[swapon]].
+`mkswap` - used to set up a Linux swap area on a device or in a file
+`swapon` - used to activate a swap area
+
+When creating a swap space, it is important to ensure that it is placed on a dedicated partition or file, separate from the rest of the file system. This helps to prevent fragmentation of the swap space and ensures that the system has adequate swap space available when it is needed. It is also important to ensure that the swap space is encrypted, as sensitive data may be stored in the swap space temporarily.
+
